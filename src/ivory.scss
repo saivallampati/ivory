@@ -1,5 +1,10 @@
 /*! IVORY UI - ivory v@VERSION | MIT license | https://github.com/IVORY-UI/ivory */
 
+/* Import shared variables and mixins first */
+@import './styles/commons/variables';
+@import './styles/commons/mixins';
+
+/* Import component partials */
 @import './styles/reset';
 @import './styles/fonts';
 @import './styles/typography';
